@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="bilder-section">
+        <h1>Bilder</h1>
+
+        <label for="imageInput" class="upload-btn">
+            + Importer bilder
+        </label>
+
+        <input type="file" id="imageInput" accept="image/*" multiple hidden>
+
+        <div id="imageGallery" class="image-gallery"></div>
+    </section>
+
+    <!-- Background music -->
+    <audio autoplay loop>
+        <source src="NettsideYFFlyd.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
